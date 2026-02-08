@@ -45,7 +45,7 @@ class DatasetScraper:
 
     def extract_pdf_links(self, html: str) -> List[str]:
         """Extract PDF URLs from HTML content."""
-        pattern = rf'href="(/epstein/files/DataSet%20{self.dataset_num}/[^"]+\.pdf)"'
+        pattern = rf'href="{DOJ_BASE_URL}(/epstein/files/DataSet%20{self.dataset_num}/[^"]+\.pdf)"'
         matches = re.findall(pattern, html)
         return [f"{DOJ_BASE_URL}{unquote(m)}" for m in matches]
 

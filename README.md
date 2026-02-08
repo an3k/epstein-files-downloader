@@ -51,16 +51,33 @@ sudo apt install aria2
 
 ### Install the tool
 
+**All:**
 ```bash
 # Clone the repo
-git clone https://github.com/YOUR_USERNAME/epstein-files-downloader.git
+git clone https://github.com/an3k/epstein-files-downloader.git
 cd epstein-files-downloader
 
-# Install dependencies
-pip install -r requirements.txt
+# Create virtual environment
+python3 -m venv venv
+```
 
-# Install the CLI
-pip install -e .
+**Windows:**
+```bash
+.\venv\Scripts\Activate.ps1
+```
+
+**Linux/macOS:**
+```bash
+source venv/bin/activate
+```
+
+**All:**
+```bash
+# Upgrade pip
+pip install --upgrade pip
+
+# Install dependencies and the tool itself
+pip install .
 ```
 
 ## Usage

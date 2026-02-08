@@ -93,7 +93,7 @@ def list():
 @click.option("--start-page", default=0, help="Start page for scraping")
 @click.option("--max-pages", default=None, type=int, help="Max pages to scrape")
 @click.option("--concurrent", "-c", default=5, help="Concurrent downloads for PDFs")
-def download(output, download_all, torrents, zips, scrape_dataset1, scrape_dataset2, scrape_dataset3, scrape_dataset4, scrape_dataset5, scrape_dataset6, scrape_dataset7, scrape_dataset8, scrape_dataset9, scrape_dataset10, scrape_dataset11, scrape_dataset12, 
+def download(output, download_all, torrents, zips, scrape_dataset1, scrape_dataset2, scrape_dataset3, scrape_dataset4, scrape_dataset5, scrape_dataset6, scrape_dataset7, scrape_dataset8, scrape_dataset9, scrape_dataset10, scrape_dataset11, scrape_dataset12, scrape_dataset13, 
              start_page, max_pages, concurrent):
     """Download datasets."""
     print_banner()

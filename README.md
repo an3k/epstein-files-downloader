@@ -15,7 +15,7 @@ The DOJ released millions of pages of documents related to Jeffrey Epstein under
 
 - **Torrent downloads** via aria2c (fastest, uses Archive.org mirrors)
 - **Direct ZIP downloads** for datasets 1-8, 12
-- **PDF scraping** for Dataset 9 (enumerates and downloads individual files)
+- **PDF scraping** for all Datasets (enumerates and downloads individual files)
 - **Resume support** - restart anytime without losing progress
 - **Parallel downloads** - configurable concurrency
 - **Progress tracking** - see what's downloaded and what's missing

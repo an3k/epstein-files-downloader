@@ -106,6 +106,9 @@ epstein-dl download --scrape-dataset9
 
 # Scrape specific page range
 epstein-dl download --scrape-dataset9 --start-page 1000 --max-pages 5000
+
+# Setting concurrency (default is 5)
+epstein-dl download -c 20
 ```
 
 ### Check Status
@@ -152,6 +155,89 @@ https://www.justice.gov/epstein/files/DataSet%20{N}/EFTA{8-digits}.pdf
 
 # File listing pages
 https://www.justice.gov/epstein/doj-disclosures/data-set-{N}-files?page={page}
+```
+
+## Known Hashes md5, sha1, sha256 (32, 40, 64 chars)
+
+**Windows:**
+```bash
+certutil -hashfile C:\path\to\file.zip sha256
+```
+**Linux:**
+```bash
+sha256sum /path/to/file.zip
+```
+
+```
+# Dataset 1.zip
+md5:     9b1fd6a2c97582a8dd2c93ef6cd226c6
+sha1:    995fd79ad295bc9e4d0d13759e680345128c2fc0
+sha256:  10d6fe68f149386cdc5d2bd8a537a52d11827fbb8bca5086b41dcf1f8957f897
+
+# Dataset 2.zip
+md5:     
+sha1:    
+sha256:  
+
+# Dataset 3.zip
+md5:     
+sha1:    
+sha256:  
+
+# Dataset 4.zip
+md5:     
+sha1:    
+sha256:  
+
+# Dataset 5.zip
+md5:     
+sha1:    
+sha256:  
+
+# Dataset 6.zip
+md5:     
+sha1:    
+sha256:  
+
+# Dataset 7.zip
+md5:     
+sha1:    
+sha256:  
+
+# Dataset 8.zip
+md5:     
+sha1:    
+sha256:  
+
+# Dataset 9.zip
+md5:     
+sha1:    
+sha256:  
+
+# DataSet9-incomplete.zip
+md5:     c467226632e77a4229c075df22af5a3e
+sha1:    6ae129b76fddbba0776d4a5430e71494245b04c4
+sha256:  00b54ddb59f52f2afcc38626d78e9d7910081ac213f7d2aeffe0c1aa6f92acf5
+
+# Dataset 10.zip
+md5:     b8a72424ae812fd21d225195812b2502
+sha1:    e686d69249cc2b183e17dd6fa95f30a87ff5c8e3
+sha256:  7d6935b1c63ff2f6bcabdd024ebc2a770f90c43b0d57b646fa7cbd4c0abcf846
+
+# Dataset 11.zip
+md5:     d29aedba383b94acf4b1b473800332e0
+sha1:    574950c0f86765e897268834ac6ef38b370cad2a
+sha256:  9714273b9e325f0a1f406063c795db32f5da2095b75e602d4c4fbaba5de3ed80
+
+# Dataset 12.zip
+md5:     b1206186332bb1af021e86d68468f9fe
+sha1:    20f804ab55687c957fd249cd0d417d5fe7438281
+sha256:  b5314b7efca98e25d8b35e4b7fac3ebb3ca2e6cfd0937aa2300ca8b71543bbe2
+
+# Dataset 13.zip
+md5:     
+sha1:    
+sha256:  
 ```
 
 ## Known Magnet Links

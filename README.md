@@ -175,39 +175,39 @@ sha1:    995fd79ad295bc9e4d0d13759e680345128c2fc0
 sha256:  10d6fe68f149386cdc5d2bd8a537a52d11827fbb8bca5086b41dcf1f8957f897
 
 # Dataset 2.zip
-md5:     
-sha1:    
-sha256:  
+md5:     0c043b6362e493e9134159bb2699e943
+sha1:    cd454fbe2cb83d6cf4600613eb41a8e03f9e9799
+sha256:  24cebbaefe9d49bca57726b5a4b531ff20e6a97c370ba87a7593dd8dbdb77bff
 
 # Dataset 3.zip
-md5:     
-sha1:    
-sha256:  
+md5:     4bcbbe3bb4280b262171817b93005878
+sha1:    c6356f9b154ab82dfb04336d8b1eeba0d2bbcb32
+sha256:  1c5587152328bd45a68baefeb5fba1d55677be4ff0b381d721f37c7b3da9055e
 
 # Dataset 4.zip
-md5:     
-sha1:    
-sha256:  
+md5:     1ee427147464f516f486ca47bb8a369a
+sha1:    38a1b3a311a0c6e2582582bdff0d7742492572e9
+sha256:  979154842bac356ef36bb2d0e72f78e0f6b771d79e02dd6934cff699944e2b71
 
 # Dataset 5.zip
-md5:     
-sha1:    
-sha256:  
+md5:     89f3daa4f52b37c100d12eb088fb4b8c
+sha1:    0163aea771dbc996c87f4bb75f632a717fbd156d
+sha256:  7317e2ad089c82a59378a9c038e964feab246be62ecc24663b741617af3da709
 
 # Dataset 6.zip
-md5:     
-sha1:    
-sha256:  
+md5:     8e4690a38f77e7a34dbc5908a5032ccd
+sha1:    156dcb07b0599ab08775f04fef7cfa95c0fbdef7
+sha256:  d54d26d94127b9a277cf3f7d9eeaf9a7271f118757997edac3bc6e1039ed6555
 
 # Dataset 7.zip
-md5:     
-sha1:    
-sha256:  
+md5:     ad35bf46a5613ddfbf37e120dea4a45c
+sha1:    ff5bf00e13551474b2d44d37d1902aa4ed255474
+sha256:  51e1961b3bcf18a21afd9bcf697fdb54dac97d1b64cf88297f4c5be268d26b8e
 
 # Dataset 8.zip
-md5:     
-sha1:    
-sha256:  
+md5:     f86494c617ea79b7a290b48ae8b1c708
+sha1:    fc97874f592b2e41a4093b25aa39f06884caa137
+sha256:  8cb7345bf7a0b32f183658ac170fb0b6527895c95f0233d7b99d544579567294
 
 # Dataset 9.zip
 md5:     
@@ -218,6 +218,11 @@ sha256:
 md5:     c467226632e77a4229c075df22af5a3e
 sha1:    6ae129b76fddbba0776d4a5430e71494245b04c4
 sha256:  00b54ddb59f52f2afcc38626d78e9d7910081ac213f7d2aeffe0c1aa6f92acf5
+
+# DataSet_9.tar.xz
+md5:     028457faa465a5193ded07d986652ff6
+sha1:    57334f9b5336edceffe2ef2e17d3570d9d6b7f1b
+sha256:  10d6fe68f149386cdc5d2bd8a537a52d11827fbb8bca5086b41dcf1f8957f897
 
 # Dataset 10.zip
 md5:     b8a72424ae812fd21d225195812b2502

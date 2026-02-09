@@ -257,7 +257,7 @@ def status(output):
     # Check torrents directory
     torrents_dir = output_dir / "torrents"
     if torrents_dir.exists():
-        files = list(torrents_dir.rglob("*"))
+        files = [f for f in torrents_dir.rglob("*")]
         file_count = len([f for f in files if f.is_file()])
         total_size = sum(f.stat().st_size for f in files if f.is_file())
         table.add_row("torrents/", str(file_count), f"{total_size / (1024**3):.2f} GB")
@@ -267,7 +267,7 @@ def status(output):
     # Check zips directory
     zips_dir = output_dir / "zips"
     if zips_dir.exists():
-        files = list(zips_dir.glob("*.zip"))
+        files = [f for f in zips_dir.glob("*.zip")]
         file_count = len(files)
         total_size = sum(f.stat().st_size for f in files)
         table.add_row("zips/", str(file_count), f"{total_size / (1024**3):.2f} GB")
@@ -278,7 +278,7 @@ def status(output):
     for ds_num in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]:
         pdf_dir = output_dir / f"dataset{ds_num}-pdfs"
         if pdf_dir.exists():
-            files = list(pdf_dir.glob("*.pdf"))
+            files = [f for f in pdf_dir.glob("*.pdf")]
             file_count = len(files)
             total_size = sum(f.stat().st_size for f in files)
             table.add_row(f"dataset{ds_num}-pdfs/", str(file_count), f"{total_size / (1024**3):.2f} GB")

@@ -117,13 +117,14 @@ class DatasetScraper:
 
                     consecutive_empty = 0
 
+# temporarily disabled so that dataset9 can be scraped completely
                     # Check for pagination wrap (same first file = looped)
-                    first_file = pdf_links[0].split("/")[-1] if pdf_links else ""
-                    if first_file == last_first_file and page > start_page:
-                        console.print(f"\n[yellow]Pagination wrapped at page {page}, stopping.[/yellow]")
-                        index["complete"] = True
-                        break
-                    last_first_file = first_file
+#                    first_file = pdf_links[0].split("/")[-1] if pdf_links else ""
+#                    if first_file == last_first_file and page > start_page:
+#                        console.print(f"\n[yellow]Pagination wrapped at page {page}, stopping.[/yellow]")
+#                        index["complete"] = True
+#                        break
+#                    last_first_file = first_file
 
                     # Add new files to index
                     for url in pdf_links:
